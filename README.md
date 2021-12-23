@@ -13,5 +13,5 @@ The tracks are currently being loaded from the tracklist array specified in main
 
 ## Add more Tracks to <playlist>
 
-More tracks can be added by adding a new <div class="track-number" onclick="numberTrack(track_index ,number = '#')" >New Track</div> in index.html.
+More tracks can be added by adding a new div class="track-number" onclick="numberTrack(track_index ,number = '#')">New Track</div  in index.html.
 make sure that the number is always one less than in playlist details : 0 = 1, 1 = 2 etc
