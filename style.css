@@ -42,6 +42,23 @@ body {
   font-size: 1.5rem;
 }
 
+ .track-number,.playlist {
+   font-size: 1.3rem;
+   text-shadow: 1px 1px 1px rgba(1, 1, 1, 0.8);
+   cursor:pointer;
+}
+
+ .track-number:hover {
+   color: #AAE4FF;
+   text-decoration:underline;
+}
+
+ .playlist {
+   position:relative;
+   top:10px;
+   left:10px;    
+}
+
 .buttons {
   display: flex;
   flex-direction: row;
