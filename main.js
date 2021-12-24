@@ -118,7 +118,7 @@ function prevTrack() {
 
 function numberTrack() {
    if (track_index = number)
-     track_index.number = '';
+     track_index.number = ' ';
    else track_index = track_index.number;
    loadTrack(track_index);
    playTrack();
